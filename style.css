@@ -1,0 +1,125 @@
+*{
+  padding: 0;
+  margin: 0;
+ 
+}
+.navbar,
+.navbar a {
+  color: #fff !important;
+ 
+}
+.navbar-brand {
+  font-size: larger;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff !important;
+}
+
+.carousel-item img{
+        height: 520px;
+        object-fit: cover;
+        opacity: 80%;
+        border: 2px solid #e4dbdb6b; 
+        border-radius: 8px;
+      }
+      .card img {
+        object-fit: cover;
+        height: 50%;
+      }
+
+      .card {
+        position: relative;
+        width: 300px;
+        height: 400px;
+       opacity: 80%;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+        opacity: 80%;
+        border: 2px solid #e4dbdb6b; 
+        border-radius: 8px;
+        box-shadow: 0 30px 20px rgba(7, 14, 104, 0.1);
+    }
+
+ 
+  .nav-item :hover {
+    font-weight: bold; 
+    
+    transition: 0.2s ease;
+  }
+
+  
+
+
+
+
+.card:hover {
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+  cursor:pointer;
+}
+body{
+  background-image: url(images/background.avif);
+  background-size: cover;
+  background-position: center;
+  color: #fff; 
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-section {
+ padding: 10px;
+  text-align: center;
+}
+
+.contact-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-section li {
+  margin: 5px 0;
+}
+footer {
+  opacity: 70%;
+}
+.custom-btn{
+  color: #fff;
+  font-weight: bold;
+
+  background-color: rgb(15, 85, 154);
+  back
+  opacity: 90%;
+}
+.form-control::placeholder {
+  color: rgb(15, 85, 154);}
+
+/* about us description */
+.description {
+
+}
+
+/* Style for the description container */
+.description {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  color: #333; /* Set the text color to a color that suits your dark background */
+  background-color: #f0f0f0; /* Set a background color that complements your design */
+  opacity: 60%;
+  padding: 20px; /* Add padding for better readability */
+  border-radius: 8px; /* Optionally, add rounded corners for a nicer look */
+}
+
+.description p {
+  margin-bottom: 15px; /* Adjust as needed for spacing between paragraphs */
+  line-height: 1.6; /* Adjust as needed for line spacing */
+}
+
+/* Style for the last paragraph with a different color */
+.description p:last-child {
+  color: #007bff; /* Change the color as desired */
+  font-weight: bold;
+}
+
+
